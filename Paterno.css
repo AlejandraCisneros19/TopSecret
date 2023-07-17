@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+  
+  .container img {
+    margin-right: 10px;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(106, 125, 163);
+}
+
+h1{
+    color: darkblue;
+    background-color: rgb(150, 165, 185);
+    padding: 25px;
+    border: 15px solid;
+}
+
+h2{
+    color: black;
+    background-color: rgb(56, 59, 100);
+    color: aliceblue;
+}
+
+h3{
+    color: rgb(162, 196, 248);
+}
+
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: rgb(56, 59, 100);
+    color: antiquewhite;
+}
+
+.tarjeta{
+  flex-direction:column;
+  justify-content:space-between;
+  width:420px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+  border-radius:15px;
+  font-family: sans-serif;
+  margin-right: 10px;
+}
+
+.titulo{
+  font-size: 24px;
+  padding: 10px 10px 0 10px;;
+}
+.cuerpo{
+  padding: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-control {
+  width: 50%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,31 @@
+.outfit-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .outfit {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .outfit img {
+    width: 300px; /* Aumentamos el tamaño de la imagen */
+    height: 300px; /* Aumentamos el tamaño de la imagen */
+    object-fit: cover;
+    border-radius: 10px; /* Cambiamos el borde a una figura con esquinas redondeadas */
+    margin-bottom: 10px;
+  }
+  
+  .outfit h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .outfit p {
+    margin: 0;
+    color: #28313b;
+  }
+  

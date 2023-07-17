@@ -1,0 +1,33 @@
+.container{
+    position: relative;
+    display: inline-block;
+  }
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 10px;
+    background-color: #77aacc;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 200px;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .overlay::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgba(0, 0, 0, 0.8) transparent transparent;
+    transform: translateY(-50%);
+  }
+  
